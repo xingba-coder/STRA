@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css"/>
+  <!--<script src="js/script.js" type="text/javascript"></script>-->
+ </head>
+ <body>
+	<div class="head">
+		<div class="box">
+			<a href="#">设为首页</a>
+			|
+			<a href="#">加入收藏</a>
+		</div>
+	</div>
+	<div class="logo">
+		<div class="boxer">
+			<div class="left">
+				<img src="image/logo.png">
+			</div>
+			<div class="right">
+				<input type="text" placeholder="请输入名称">
+				<a href="#">搜索</a>
+			</div>
+		</div>
+	</div>
+	<div class="sli">
+		<div class="slider">
+			<li><a href="#">首页<p>Home</p></a></li>
+			<li><a href="#">EI期刊<p>EI Journal</p></a></li>
+			<li><a href="#">SCI期刊<p>SCI Journal</p></a></li>
+			<li><a href="#">投稿<p>Submission</p></a></li>
+			<li><a href="#">流程<p>Review Steps</p></a></li>
+			<li><a href="#">问题<p>FAQ</p></a></li>
+			<li><a href="#">翻译<p>Translation</p></a></li>
+			<li><a href="#">合作<p>Cooperation</p></a></li>
+			<li><a href="#">索引<p>Index</p></a></li>
+			<li><a href="#">联系<p>Contact Us</p></a></li>
+		</div>
+	</div>
+	<div class="pic" id="pic">
+		<img  class="show" src="image/aa.jpg">
+		<img  class="hide" src="image/OO.jpg">
+		<img  class="hide" src="image/PP.jpg">
+		<div class="select" id="select">
+			<div ></div>
+			<div ></div>
+			<div ></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var div = document.getElementById("select");
+		var sdiv = div.getElementsByTagName("div");
+		var img = document.getElementById("pic");
+		var simg = img.getElementsByTagName("img");
+		for(var i=0;i<sdiv.length;i++){
+			sdiv[i].index=i;
+			sdiv[i].onmouseover = function(){
+				for(var j=0;j<simg.length;j++){
+					simg[j].className = "hide";
+				}
+				this.style.color="blue";
+				simg[this.index].className = "show";
+			}
+		}
+	</script>
+	<div class="star">
+		<div class="s-left">
+			<div class="up">
+				<a href="#">About STRA</a>
+				<a href="#">|</a>
+				<a href="#">STRA News</a>
+				<a href="#">|</a>
+				<a href="#">STRA Notice</a>
+			</div>
+			<div class="down">
+				<div class="ph">
+					<img src="image/bb.jpg">
+				</div>
+				<span>
+					Science and Technology Research Association （STRA2016) March 15-16, 2016 Gui lin, China Welcome to the official website STRA2016! On behalf of the Organizing Committee, we are pleased to invite you to participate in Science and Technology Research Association (STRA2016)which will be held on March 15-16, 2016 in Gui lin, China. 科学技术研究协会（STRA2016）将于2016年3月15-16在中国桂林召开。STRA会务组旨在为世界各地的研究人员、工程师、学者和专业人士提供一个展示计算机科学，能源与环境工程、自动化与控制工程、电子电...更多详情 > >
+				</span>
+			</div>
+		</div>
+		<div class="s-right">
+			<div class="up">
+				<a href="#" class="article">Article States</a>
+				<div class="mo">
+					<a href="#" class="more">More >></a>
+				</div>
+			</div>
+			<div class="down">			
+				<li>文章发表状态 <span>2015-06-05</span></li>
+				<li>最全的国外学位论文下载网址 <span>2015-06-05</span></li>
+				<li>SCI影响因子的作用 <span>2014-02-12</span></li>
+				<li>SCI检索号和收录号查询方法 <span>2013-05-18</span></li>
+				<li>一稿多投的界定 <span>2013-04-11</span></li>
+				<img src="image/c4_b.jpg">
+			</div>
+		</div>
+	</div>
+	<div  class="EI">
+		<img src="image/bg01.png">
+	</div>
+	<div class="EI-cont">
+		<div class="first">
+			<div class="up">
+				<img src="image/zz.jpg">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+		<div class="second">
+			<div class="up">
+				<img src="image/ff.jpg">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+		<div class="third">
+			<div class="up">
+				<img src="image/cc.jpg">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+		<div class="fourth">
+			<div class="up">
+				<img src="image/ee.jpg">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="middle">
+		<div class="up">
+			<a href="#">控制工程期刊</a>
+			<a href="#">计算机与信息科学</a>
+			<a href="#">电气与电子工程</a>
+		</div>
+		<div class="below">
+			<div class="one">
+				<img src="image/LL.png">
+				<p>Journal of Automat...</p>
+			</div>
+			<div class="two">
+				<img src="image/kk.png">
+				<p>International Jour...</p>
+			</div>
+			<div class="three">
+				<img src="image/jj.png">
+				<p>Automated Software...</p>
+			</div>
+			<div class="four">
+				<img src="image/hh.png">
+				<p>Journal of control...</p>
+			</div>
+		</div>
+	</div>
+	<div  class="SCI">
+		<img src="image/bg01.png">
+	</div>
+	<div class="SCI-cont">
+		<div class="first">
+			<div class="up">
+				<img src="image/NN.png">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+		<div class="second">
+			<div class="up">
+				<img src="image/MM.png">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+		<div class="third">
+			<div class="up">
+				<img src="image/dd.jpg">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+		<div class="fourth">
+			<div class="up">
+				<img src="image/gg.png">
+				<h3>Journal of biomedi...</h3>
+				<p>
+					EI期刊源-生物医学工程与技术杂志 国籍：南非检索情况：EI检索正常发表周期： 月刊语　　种：英语EI期刊模板：请点击下载模板 审稿周期：约1-2个月左右 投...
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="link">
+		<div class="high">
+			<img src="image/bg01.png">
+		</div>
+		<div class="low">
+			<li><a href="#">Ei Compendex</a></li>
+			<li><a href="#">Journal Citation Reports</a></li>
+			<li><a href="#">万方数据</a></li>
+			<li><a href="#">小木虫</a></li>
+			<li><a href="#">Google</a></li>
+			<li><a href="#">国外查重网站</a></li>
+			<li><a href="#">武汉大学</a></li>
+			<li><a href="#">百度</a></li>
+			<li><a href="#">斯普林格</a></li>
+			<li><a href="#">Taylor & Francis</a></li>
+			<li><a href="#">爱思唯尔</a></li>
+			<li><a href="#">TTP</a></li>
+			<li><a href="#">中国知网</a></li>
+			<li><a href="#">维普网</a></li>
+			<li><a href="#">IOS Press</a></li>
+			<li><a href="#">中文社会科学引文索引</a></li>
+			<li><a href="#">JSTOR</a></li>
+			<li><a href="#">Wiley电子期刊</a></li>
+			<li><a href="#">Science Online</a></li>
+			<li><a href="#">CPCI(Conference Proceedings Citation Index)</a></li>
+			<li><a href="#">电子资源门户</a></li>
+		</div>
+	</div>
+	<div class="bottom">
+		<p><a href="#">Copyright ©2011-2015 By Science and Technology Research Association</a></p>
+		<p><a href="#">Tel：0731-83873238 E-mail:stra_consulting@163.com   HITS：511694   SUPPORT：THEFINE INTERNET
+		</a></p>
+	</div>
+	<div class="fix">
+		<p>期刊分类</p>
+		<li><a href="#">EI期刊</a></li>
+		<li><a href="#">SCI期刊</a></li>
+		<li><a href="#">控制工程期刊</a></li>
+		<li><a href="#">信息工程期刊</a></li>
+		<li><a href="#">地理科学期刊</a></li>
+		<li><a href="#">机械与动力工程</a></li>
+		<li><a href="#">材料科学工程</a></li>
+		<li><a href="#">化工与化学工程</a></li>
+		<li><a href="#">生物与医药工程</a></li>
+		<li><a href="#">能源与环境工程</a></li>
+		<li><a href="#">计算机与信息科学</a></li>
+		<li><a href="#">电气与电子工程</a></li>
+	</div>
+ </body>
+</html>
